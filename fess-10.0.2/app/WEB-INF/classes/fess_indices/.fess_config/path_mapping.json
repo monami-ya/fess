@@ -1,0 +1,41 @@
+{
+  "path_mapping": {
+    "_source": {
+      "enabled": true
+    },
+    "_all": {
+      "enabled": false
+    },
+    "properties": {
+      "regex": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "replacement": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "processType": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "sortOrder": {
+        "type": "integer"
+      },
+      "createdBy": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "createdTime": {
+        "type": "long"
+      },
+      "updatedBy": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "updatedTime": {
+        "type": "long"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "role": {
+    "_source": {
+      "enabled": true
+    },
+    "_all": {
+      "enabled": false
+    },
+    "properties": {
+      "name": {
+        "type": "string",
+        "index": "not_analyzed"
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+$(function(){var a=$("#content");var b=$("#contentFrame");b.load(function(){$(this).height(a.height())})});

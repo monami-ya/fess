@@ -1,0 +1,32 @@
+{
+  "favorite_log": {
+    "_source": {
+      "enabled": true
+    },
+    "_all": {
+      "enabled": false
+    },
+    "properties": {
+      "userInfoId": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "url": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "docId": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "queryId": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "createdAt": {
+        "type": "date",
+        "format": "date_optional_time"
+      }
+    }
+  }
+}

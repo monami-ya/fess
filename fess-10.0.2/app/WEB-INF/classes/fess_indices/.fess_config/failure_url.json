@@ -1,0 +1,38 @@
+{
+  "failure_url": {
+    "_source": {
+      "enabled": true
+    },
+    "_all": {
+      "enabled": false
+    },
+    "properties": {
+      "url": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "threadName": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "errorName": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "errorLog": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "errorCount": {
+        "type": "integer"
+      },
+      "lastAccessTime": {
+        "type": "long"
+      },
+      "configId": {
+        "type": "string",
+        "index": "not_analyzed"
+      }
+    }
+  }
+}
