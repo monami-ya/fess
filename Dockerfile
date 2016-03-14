@@ -13,6 +13,6 @@ ADD fess-10.0.2 /fess-10.0.2
 EXPOSE 8080
 
 RUN mkdir /etc/service/fess
-ADD fess.sh /etc/service/insight/run
+ADD fess.sh /etc/service/fess/run
 
 
