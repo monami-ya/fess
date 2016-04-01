@@ -6,6 +6,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN add-apt-repository ppa:openjdk-r/ppa
 RUN apt-get update
 RUN apt-get install -y openjdk-8-jre-headless
+RUN apt-get upgrade
 RUN sudo update-ca-certificates -f
 
 ADD fess-10.0.2 /fess-10.0.2
